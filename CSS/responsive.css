@@ -1,3 +1,14 @@
+@media screen and (max-width:450px) {
+    .descricao{
+        font-size: 12px;
+        width:50%;
+    }
+
+    .titulo{
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width:700px){
     header .container{
         display: flex;
