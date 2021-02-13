@@ -21,7 +21,7 @@ header .container{
     display:flex;
     flex-direction: row;
     align-items: center;/*alinha os itens verticalmente*/
-    justify-content: space-between;/*alina os itens a direita horizontalmente*/
+    justify-content: space-between;/*alinha os itens a direita horizontalmente*/
     position: relative;
     top:2px;
     z-index: 10;
