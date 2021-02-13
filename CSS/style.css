@@ -22,7 +22,9 @@ header .container{
     flex-direction: row;
     align-items: center;/*alinha os itens verticalmente*/
     justify-content: space-between;/*alina os itens a direita horizontalmente*/
-    
+    position: relative;
+    top:2px;
+    z-index: 10;
 }
 
 .logo{
@@ -42,10 +44,16 @@ header nav a:hover{
 }
 
 /*filme principal*/
+
+.filme-principal .bruxo{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+}
+
 .filme-principal{
     font-size:16px;
-    background:url('/imagens/capa-bruxo2.jpeg');
-
     height:400px;
     background-size:cover;
  
@@ -54,6 +62,11 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.filme-principal .container{
+    width: 70%;
+    z-index: 10;
 }
 
 
@@ -95,10 +108,6 @@ header nav a:hover{
 
 .container{
     margin-left: 20px;
-}
-
-.filme-principal .container{
-    width: 70%;
 }
 
 .status{
